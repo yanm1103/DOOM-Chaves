@@ -1,0 +1,40 @@
+TEXTURE TVON1
+ALLOWDECALS
+RANDOM
+PIC 1 tics 1
+PIC 2 tics 1
+PIC 3 tics 1
+PIC 4 tics 1
+PIC 5 tics 1
+
+TEXTURE tvma1
+PIC 1 tics 4
+PIC 2 tics 4
+PIC 3 tics 4
+PIC 4 tics 4
+PIC 5 tics 4
+PIC 6 tics 4
+PIC 7 tics 4
+PIC 8 tics 4
+PIC 9 tics 4
+PIC 10 tics 4
+PIC 11 tics 4
+PIC 12 tics 4
+PIC 13 tics 4
+PIC 14 tics 4
+PIC 15 tics 4
+PIC 16 tics 4
+PIC 17 tics 4
+PIC 18 tics 4
+PIC 19 tics 4
+PIC 20 tics 4
+PIC 21 tics 4
+PIC 22 tics 4
+PIC 23 tics 4
+PIC 24 tics 4
+PIC 25 tics 4
+PIC 26 tics 4
+PIC 27 tics 4
+PIC 28 tics 4
+PIC 29 tics 4
+PIC 30 tics 4

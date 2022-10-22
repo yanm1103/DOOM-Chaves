@@ -1,0 +1,50 @@
+Model GasTank {
+	Path "models/GasTank"
+	Model 0 "GTANK.md3"
+	Skin 0 "GTANK.png"
+	//Pitchoffset 90
+	AngleOffset 90
+	RollOffset 90
+	Scale 1.5 1.5 1.5
+	FrameIndex GAST A 0 0
+}
+Model Chair {
+	Path "models/Chair"
+	Model 0 "cadeira.md3"
+	Skin 0 "cade1.png"
+	Scale 1 1 1.2
+	AngleOffset 90
+	FrameIndex CADE A 0 0 
+}
+Model Fonte {
+	Path "models/Fonte"
+	Model 0 "fonte.md3"
+	SurfaceSkin 0 0 "fonte1.png"
+	SurfaceSkin 0 1 "fonte2.png"
+	Scale 1 1 1.2
+	FrameIndex FONT A 0 0
+}
+Model Table {
+	Path "models/Table"
+	Model 0 "table.md3"
+	SurfaceSkin 0 0 "table1.png"
+	SurfaceSkin 0 1 "table2.png"
+	Scale 1 1 1.2
+	FrameIndex TAB1 A 0 0
+}
+Model Table2 {
+	Path "models/Table"
+	Model 0 "table.md3"
+	SurfaceSkin 0 0 "table1.png"
+	SurfaceSkin 0 1 "table3.png"
+	Scale 1 1 1.2
+	FrameIndex TAB2 A 0 0
+}
+Model Calha {
+	Path "models/Calha"
+	Model 0 "calha.md3"
+	Skin 0 "calha.png"
+	Scale 1 1 1.2
+	AngleOffset 90
+	FrameIndex CALH A 0 0 
+}

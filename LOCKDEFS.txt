@@ -1,0 +1,20 @@
+LOCK 11 Doom {
+	Chave14
+	MESSAGE "Você precisa da chave cinza para abrir esta porta."
+}
+LOCK 12 Doom {
+	Chave23
+	MESSAGE "Você precisa da chave bronze para abrir esta porta."	
+}
+LOCK 13 Doom {
+	Chave71
+	MESSAGE "Você precisa da chave demoníaca para abrir esta porta."	
+}
+LOCK 14 Doom {
+	Bolaqd
+	MESSAGE "Não consigo abrir. Tem um buraco quadrado na porta."
+}
+LOCK 10 Doom {
+	ChaveMestra
+	MESSAGE "A fechadura está quebrada. Não consigo abrir."
+}

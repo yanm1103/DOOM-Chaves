@@ -1,0 +1,33 @@
+gameinfo { //Configurações relacionadas ao jogo como um todo
+	playerclasses = "seumadruga" //Usará o ACTOR seumadruga como classe
+	titlemusic = "music/INTRO" //Música do menu
+	titletime = 6 //Deixa a tela inicial por 10 segundos na tela
+	intermissionmusic = "music/INTER" //Musica da intermissao (entre fases)
+	dimcolor = "00 78 0e" //Cor que sobrepõe o background no menu
+	dimamount = 0.9 //De 0 a 1.0 a força da cor de cima
+	swapmenu = true //Deixa o menu na ordem mais coerente
+	drawreadthis = true //Ativa o botão "Leia Isso!"
+	menufontcolor_title = "GREEN" //Todas as opções abaixo modificam os menus feitos com texto puro, por exemplo as opções.
+	menufontcolor_label = "YELLOW"
+	menufontcolor_value = "GREEN"   
+	menufontcolor_action = "YELLOW"
+	menufontcolor_header = "YELLOW"
+	menufontcolor_highlight = "GREEN"
+	menufontcolor_selection = "GREEN"
+	noloopfinalemusic = true //Não loopa a música do final.
+	quitsound = "TOMA" //Quando o player sair do jogo, ele vai ouvir um "Toma!"
+	quitmessages = "Tinha que ser o Chaves mesmo!","Eu já te contei sobre Tangamandapio?","Só não te dou outra porque minha vózinha jogava Doom!"
+	addquitmessages = "Foi sem querer querendo!","Olha ele hein, olha ele!","Você não vai com a minha cara?","Isso Isso Isso!","É você Satanás?"
+}
+
+defaultmap { //Configurações padrões para todos os mapas
+	SuckTime = 3 //3 horas dentro da fase e você receberá "SUCKS" como resultado de tempo
+	NoCrouch //Desliga a opção de poder agachar.
+}
+
+map MAP01 "Vila do Chaves" { //Configurando o mapa da vila.
+	sky1 = RSKY1, 0.1 //Textura do céu
+	sky2 = RSKY2, 0 //Outra textura do céu
+	par = 300 //Não sei exatamente o que é, mas aparece no final da fase.
+	music = "music/9" //Não utilizado devido ao script de música aleatória.
+}

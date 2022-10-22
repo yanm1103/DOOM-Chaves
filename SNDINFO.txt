@@ -1,0 +1,24 @@
+DR01	sounds/DR01
+DR02	sounds/DR02
+POWS1	sounds/POWS1
+POWS2	sounds/POWS2
+POWS3	sounds/POWS3
+$random POWS {POWS1 POWS2 POWS3}
+COMER	sounds/COMER
+TOMA	sounds/TOMA
+TOMA2	sounds/TOMA2
+TOMA3	sounds/TOMA3
+$random TOMAS {TOMA TOMA2 TOMA3}
+SWNG	sounds/SWNG
+CAR		sounds/CARABINA
+ABRIR	sounds/ABRIR
+STATIC 	sounds/STATIC
+AIRB	sounds/AIRBRUSH
+$volume AIRB 0.3
+$ambient 1 STATIC point 4.0 continuous 1.0
+$ambient 2 AIRB point 4.0 continuous 1.0
+$volume CAR 0.5
+RELOAD	sounds/RELOAD
+BOULDER	sounds/BOULDER
+SATAN	sounds/SATAN
+GUERRA	sounds/GUERRA

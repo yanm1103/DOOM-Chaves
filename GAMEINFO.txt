@@ -1,0 +1,4 @@
+STARTUPTITLE = "DOOM Chaves"
+STARTUPCOLORS = "fc ba 03", "00 78 0e"
+IWAD = "doom2.wad"
+LOADLIGHTS = 1

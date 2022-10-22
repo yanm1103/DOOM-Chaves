@@ -1,0 +1,27 @@
+:ChavoDoorOpen
+	play DR01
+	nostopcutoff
+end
+
+:ChavoDoorClose
+	play DR02
+	nostopcutoff
+end
+
+[ChavoDoor
+ door 0
+ 0  ChavoDoorOpen
+ 1  ChavoDoorClose
+ 2  ChavoDoorOpen
+ 3  ChavoDoorClose
+]
+
+:BWS
+	play BOULDER
+	nostopcutoff
+end
+
+:SATAN
+	play SATAN
+	nostopcutoff
+end

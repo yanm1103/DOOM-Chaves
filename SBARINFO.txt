@@ -1,0 +1,33 @@
+StatusBar Normal {
+	DrawImage "STBAR", 0, 168;
+	//Rosto do Madruga | Madruga's face
+	DrawMugShot 5,disableouch,disablepain,143,168;
+	
+	//Contador de Vida | Life counter
+	DrawNumber 3,DBIGFONT,LightBlue,Health,alignment(center),122,173,Red,40;
+	//Contador de Municao | Ammo counter
+	DrawNumber 3,DBIGFONT,White,Ammo1,alignment(center),197,173,Red,5;
+	
+	
+	//Escreve PRERIGO se vida for <=40 | Writes DRANGER if life <=40
+	IfHealth not 41 {
+	DrawString CONFONT,Red,"PRERIGO",158,165,0,alignment(center);
+	}
+	
+	//Escreve VIDA e BALAS | Writes HEALTH and BULLETS
+	DrawString CONFONT,LightBlue,"Vida",124,189,0,alignment(center);
+	DrawString CONFONT,White,"Balas",198,189,0,alignment(center);
+	
+	//Escreve a arma atual | Writes the current weapon
+	//DrawString CONFONT,Brown,weapontag,5,189,0,alignment(center)|linebreaks(14);
+	//Escreve a versão atual
+	//DrawString CONFONT,White,"Doom Chaves 0.8 Beta",0,20,0,alignment(left);
+	//Escreve o tempo | Writes time
+	//DrawString CONFONT,LightBlue,time,5,189,0,alignment(center);
+	
+	//Lá vem as chaves | Keys
+	DrawSwitchableImage Chave14,"nullimage","STKEY1",222,170;
+	DrawSwitchableImage Chave23,"nullimage","STKEY2",222,180;
+	DrawSwitchableImage Chave71,"nullimage","STKEY3",222,190;
+	DrawSwitchableImage Bolaqd,"nullimage","BOLAQD",235,168;
+}

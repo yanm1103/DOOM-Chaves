@@ -209,6 +209,7 @@ ACTOR trophy 15003 {
 ACTOR GasTank : ExplosiveBarrel 15004 {
 	Height 40
 	Radius 5
+	+PUSHABLE
 	+SOLID
 	States {
 		Spawn:
@@ -278,6 +279,17 @@ ACTOR Triciculo 15010 {
 		STOP
 	}
 }
+
+ACTOR DeadKiko 15011 {
+	Height 70
+	Radius 30
+	States {
+		Spawn:
+		KIKO A -1
+		STOP
+	}
+}
+
 /////////////////////////////
 // CHAVES ///////////////////
 /////////////////////////////

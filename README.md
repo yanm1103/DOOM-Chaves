@@ -3,6 +3,8 @@ Mod for DOOM based on franchise El Chavo del Ocho.
 Created back in 2014 when I was 15. Updated in 2020.  
 Uses DOOM 2 UDMF format.  
 Expects lights.pk3 inside house 71.  
+
+### Watch the mod in action on YouTube:
 [![Watch the mod in action on YouTube](https://img.youtube.com/vi/fmqVgwJOd34/0.jpg)](https://youtu.be/fmqVgwJOd34)
 
 

@@ -206,7 +206,7 @@ ACTOR trophy 15003 {
 		STOP
 	}
 }
-ACTOR GasTank 15004 {
+ACTOR GasTank : ExplosiveBarrel 15004 {
 	Height 40
 	Radius 5
 	+SOLID

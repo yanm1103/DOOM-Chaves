@@ -21,13 +21,14 @@ gameinfo { //Configurações relacionadas ao jogo como um todo
 }
 
 defaultmap { //Configurações padrões para todos os mapas
-	SuckTime = 3 //3 horas dentro da fase e você receberá "SUCKS" como resultado de tempo
-	NoCrouch //Desliga a opção de poder agachar.
+	SuckTime = 1 // 3 horas dentro da fase e você receberá "SUCKS" como resultado de tempo
+	NoCrouch // Desliga a opção de poder agachar.
 }
 
 map MAP01 "Vila do Chaves" { //Configurando o mapa da vila.
 	sky1 = RSKY1, 0.1 //Textura do céu
 	sky2 = RSKY2, 0 //Outra textura do céu
-	par = 300 //Não sei exatamente o que é, mas aparece no final da fase.
-	music = "music/9" //Não utilizado devido ao script de música aleatória.
+	// Tempo estimado para finalizar o mapa, exibido na intermissão. 300 = 5 min
+	par = 300
+	music = "music/RUNAWAY" //Música
 }

@@ -12,7 +12,7 @@ LOCK 13 Doom {
 }
 LOCK 14 Doom {
 	Bolaqd
-	MESSAGE "Não consigo abrir. Tem um buraco quadrado na porta."
+	MESSAGE "Não consigo abrir, e tem um buraco quadrado na porta."
 }
 LOCK 10 Doom {
 	ChaveMestra

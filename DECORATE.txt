@@ -64,14 +64,14 @@ ACTOR Gloves : Weapon Replaces Fist 17000 {
 		Goto Ready
 	}
 }
-ACTOR BionicHammer : Weapon Replaces Chainsaw 17001 {
+ACTOR BionicHammer : Weapon Replaces Chainsaw 2005 {
 	Inventory.PickupMessage "Pegou a marreta bionica!"
 	Weapon.SelectionOrder 2800 
 	Weapon.Kickback 1000
 	+WEAPON.MELEEWEAPON
 	+WEAPON.NOALERT
 	Obituary "$%o teve a cara amassada por %k"
-	Tag "Marreta Biônica"
+	Tag "Marreta Bionica"
 	States {
 		Spawn:
 		BION A -1
@@ -96,7 +96,7 @@ ACTOR BionicHammer : Weapon Replaces Chainsaw 17001 {
 		Goto Ready
 	}
 }
-ACTOR Carabina : DoomWeapon Replaces Shotgun 17002 {
+ACTOR Carabina : DoomWeapon Replaces Shotgun 2001 {
 	Inventory.PickupMessage "Pegou uma carabina!"
 	Weapon.SelectionOrder 1000
 	Weapon.Kickback 100

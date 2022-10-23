@@ -4,6 +4,11 @@ Created back in 2014 when I was 15. Updated in 2020.
 Uses DOOM 2 UDMF format.  
 Expects lights.pk3 inside house 71.  
 
+# How to play/install the mod
+Make sure to use [GZDoom](https://zdoom.org/downloads) and have a copy of Doom2.wad (distribution of this one is illegal).  
+Click and drag chaves.pk3 on top of gzdoom.exe.  
+Make sure to check the checkbox that says Extra Graphics - Lights in order to load lights.pk3 inside GZDoom. The game gets too dark without it.
+
 ## Software used (were updated as I wrote this list):
 ### SLADE 3.2.1
 

@@ -79,11 +79,12 @@ SCRIPTS - Map scripts, need to be recompiled after editing, and will replace BEH
 ENDMAP - 0byte file that just represents the end of the archive.
 
 # Special thanks to
-Agent ME  
-Cris140  
-phantombeta  
-Agent_Ash  
-Aleksandro Junior  
+freshlycutgrass and Rockstar Games (for the GTA 2 explosion effects)  
+Agent ME (general Doom modding help)  
+Cris140 (general sound related help and creator of AI Seu Madruga's voice)  
+phantombeta (general Doom modding help)  
+Agent_Ash (general Doom modding help)  
+Aleksandro Junior (Beta tester for the 2014 version)  
 ID Software  
 ...rest of DOOM (and by extent ZDoom) community
 

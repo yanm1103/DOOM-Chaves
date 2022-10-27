@@ -1,4 +1,5 @@
 # Doom Chaves
+![Doom Chaves logo](https://i.imgur.com/dDHqP8E.png)
 Mod para o DOOM 2 baseado na franquia El Chavo del Ocho. | Mod for DOOM 2 based on franchise El Chavo del Ocho.  
 Criado em 2014 quando eu tinha 15 anos. Atualizado a partir de 2020. | Created back in 2014 when I was 15. Updated back in 2020.  
 Usa o formato DOOM 2 UDMF. | Uses DOOM 2 UDMF format.  
